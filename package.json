@@ -1,5 +1,5 @@
 {
-  "name": "package relative mapping systemjs 0.20",
+  "name": "package-relative-mapping-systemjs-0.20",
   "version": "1.0.0",
   "scripts": {
     "postinstall": "jspm install && http-server -p 10017"
