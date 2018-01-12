@@ -27,13 +27,6 @@ SystemJS.config({
     }
   },
   transpiler: "plugin-babel",
-  packages: {    
-    "lodash": {
-        "map": {
-            "./isArray.js": "custom/isArray.js"
-        } 
-    }
-  },
   map: {
     "babel": "npm:babel-core@5.8.38"
   }
@@ -48,5 +41,11 @@ SystemJS.config({
   map: {
     "lodash": "npm:lodash@4.17.4"
   },
-  packages: {}
+  packages: {    
+    "lodash": {
+        "map": {
+            "./isArray.js": "custom/isArray.js"
+        } 
+    }
+  }
 });
